@@ -1,0 +1,39 @@
+@import "base.css";
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 40px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  width: 320px;
+  height: 497px;
+  border-radius: 20px;
+  padding: 16px 16px 40px 16px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.477);
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+}
+
+.card h1 {
+  font-size: 22px;
+  margin: 24px 0 16px 0;
+  line-height: normal;
+  color: var(--dark-blue);
+}
+
+.card p {
+  color: var(--grayish-blue);
+  font-size: 15px;
+  padding: 0 16px 0 16px;
+  line-height: normal;
+}
